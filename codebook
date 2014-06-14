@@ -1,0 +1,8 @@
+odebook
+1. x_test set and y_test set where merged into 1 set.
+2. x_train set and y-train set where merged into 1 set.
+3. the 2 merged set from above where combined into 1 again.
+4. measurements which corresponded to mean and standard deviation where extracted.
+5. a second data set with average of each activity was created.
+ -subject - An identifier of the subject who carried out the experiment.
+  -label - An activity label.
