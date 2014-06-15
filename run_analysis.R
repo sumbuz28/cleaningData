@@ -46,5 +46,5 @@ finalData<-finalData[order(finalData$Subject),]
 
 
 finalData$Activity<-activity_labels[finalData$Activity,]
-write.table(finalData, file="./finalizeData.txt", sep="\t", row.names=FALSE)
+write.table(finalData, file="./cleanData.txt", sep="\t", row.names=FALSE)
 
