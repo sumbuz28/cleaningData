@@ -10,7 +10,7 @@ setwd(tempdir())
 setwd("UCI HAR Dataset/")
 features<-read.table("features.txt")["V2"]
 activity_labels<-read.table("activity_labels.txt")["V2"]
-means_or_stds<-grep("mean|std",features$V2) # columns corresponding to mean or std data 
+means_or_stds<-grep("mean(+[()]{1})|std",features$V2) # columns corresponding to mean or std data 
 
 setwd("train")
 X_train<-read.table("X_train.txt")
