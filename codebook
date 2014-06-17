@@ -6,3 +6,4 @@ odebook
 5. a second data set with average of each activity was created.
  -subject - An identifier of the subject who carried out the experiment.
   -label - An activity label.
+6. link of the original data l used https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
